@@ -100,6 +100,23 @@ This project demonstrates how domain-specific large language models can be appli
 * `/webapp` → Django chatbot application
 * `/evaluation` → testing results & metrics
 * `/docs` → thesis report
+  
+---
+## 🤗 Model & Dataset
+
+### 🔗 Hugging Face Repository
+
+* Model:
+  1. https://huggingface.co/sayyid14/BioMistralCancer-withLoRA
+  2. https://huggingface.co/sayyid14/BioMistralCancer-withoutLoRA
+  
+* Dataset:
+  1. For training : https://huggingface.co/datasets/sayyid14/cancerdatasets 
+  2. For testing  : https://huggingface.co/datasets/sayyid14/testMedMCQA
+### 📌 Description
+
+The trained model and dataset are hosted on Hugging Face for accessibility and scalability.
+This repository focuses on the system implementation, experimentation, and deployment.
 
 ---
 
